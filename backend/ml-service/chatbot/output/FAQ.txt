@@ -1,0 +1,91 @@
+7/24/26, 10:15 AM FAQ
+Frequently Asked Questions
+1. What Document/I-Card required to book e-Ticket?
+2. How can I make payment to book e-ticket?
+3. How can I cancel e-ticket and how will I get refund?
+4. What if I forget to carry Photo Identity card?
+5. How to postpone/prepone journey?
+6. How to change name of passenger?
+7. Can partial cancellation be done?
+8. Can I book break -journey ticket?
+9. Can I book student/other concession ticket?
+1. What Document/I-Card required to book e-Ticket?
+A.The user is not required to give any input of the photo identity card details of any of the
+passengers while booking the ticket. However he shall have to carry and show one of following
+identity card of any of the passengers in original while travelling.
+The following photo identity cards are considered valid.
+Passport.
+Voter photo identity card issued by Election Commission of India.
+Driving Licence issued by RTO
+Pan Card issued by Income Tax Department.
+Photo Identity card having serial number issued by Central / State Government.
+Student Identity Card with photograph issued by recognized School/College for
+their students.
+Nationalized Bank Passbook with photographs.
+Credit Cards issued by Banks with laminated photograph.
+Unique Identification Card "Aadhaar”, m-Aadhaar, e-Aadhaar.
+Photo identity cards having serial number issued by public sector Undertakings of
+State/Central Government, District Administrations, Municipal bodies and Panchayat
+Administrations.
+Passenger showing the Aadhaar/Driving Licence from the “Issued Document”
+section by logging into his/her DigiLocker account considered as valid proof of
+identity (Documents uploaded by the user i.e. the document in “Uploaded
+Document” section will not be considered as a valid proof of identity).
+TOP
+2. How can I make payment to book e-ticket?
+A. All payment options have been grouped under specific categories (viz. Credit cards, Net
+banking, Wallets and Multiple payment service etc.) Select the desired Payment Option from the
+displayed Payment gateway menus. Click on "Make Payment" buttonfor redirection to selected
+Bank website.
+TOP
+3. How can I cancel e-ticket and how will I get refund?
+A. E-Tickets (Reservations) can be cancelled only through IRCTC eTicketing website. To cancel
+your e-ticket log on to www.irctc.co.in and go to My Account=>My Transactions=>Booked ticket
+Historylink and select the ticket to be cancelled and then initiate the cancellation by selecting the
+passengers to be cancelled. Cancellation would be confirmed online and the refund would be
+credited back to the account used for booking as for normal Internet tickets. If there is any partial
+cancellation of ticket please ensure that the modified ticket (Electronic Reservation Slip) is
+https://contents.irctc.co.in/en/etktfaq.html 1/3
+
+7/24/26, 10:15 AM FAQ
+printed separately as for the original ticket. All cancellation and refunds are processed as per
+extant Railway Rules. For more details, Please click here
+TOP
+4.What if I forget to carry Photo Identity card?
+A. One of the passenger booked on an E-ticket in a PNR is required to present any of the ten
+identity cards noted below in original during the train journey and same will be accepted as a
+proof of identity failing which the passenger will be treated as travelling without ticket and shall
+be dealt as per extant Railway Rules. Valid Ids:- Passport / Voter photo identity card issued by
+Election Commission of India / Driving Licence issued by RTO / Pan Card issued by Income Tax
+Department / Photo Identity card having serial number issued by Central / State Government /
+Student Identity Card with photograph issued by recognized School/College for their students /
+Nationalized Bank Passbook with photographs / Credit Cards issued by Banks with laminated
+photograph /Unique Identification Card "Aadhaar” / Photo identity cards having serial number
+issued by public sector Undertakings of State/Central Government, District Administrations,
+Municipal bodies and Panchayat Administrations.
+TOP
+5. How to postpone/prepone journey?
+A.This can be done on line by cancelling the original ticket and booking a fresh ticket.
+TOP
+6. How to change name of passenger?
+A. To know the procedure of changing the name of passenger click here .
+TOP
+7. Can partial cancellation be done?
+A. Yes. Partial Cancellation can be done. User has to log on to www.irctc.co.in and go to My
+Account=>My Transactions=>Booked ticket Historylink and select the ticket to be cancelled and
+can initiate cancellation by selecting the passengers to be cancelled. All cancellation and refunds
+are processed as per extant Railway Rules. For more details, Please click here
+TOP
+8. Can I book break -journey ticket?
+A.Presently this facility is not available for internet tickets
+TOP
+9. Can I book student/other concession ticket?
+A. Student concession facility is not available for e-Ticket. However, Divyaang passengers having
+Photo Identity card issued by Railways can avail the concession on online e-Ticket booking
+through IRCTC. Similarly, Journalist passengers having Photo Identity card issued by Railways
+can avail the concession on online e-Ticket booking through IRCTC.
+TOP
+https://contents.irctc.co.in/en/etktfaq.html 2/3
+
+7/24/26, 10:15 AM FAQ
+https://contents.irctc.co.in/en/etktfaq.html 3/3

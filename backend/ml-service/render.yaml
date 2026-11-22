@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: saarthi-ml-service
+    env: docker
+    rootDir: backend/ml-service
+    dockerfilePath: backend/ml-service/Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: SARVAM_API_KEY
+        sync: false
+      - key: CORS_ORIGIN
+        value: "*"

@@ -1,0 +1,10 @@
+{
+  "lift": "working",
+  "washroom": "not_working",
+  "ticket_counter": "working",
+  "escalator": "working",
+  "drinking_water": "working",
+  "waiting_room": "not_working",
+  "charging_station": "working",
+  "atm": "not_working"
+}

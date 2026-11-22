@@ -1,0 +1,232 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono);
+  --font-heading: "Inter", ui-sans-serif, system-ui, sans-serif;
+  /* ─── Sarthi Brand Tokens ─────────────────────────── */
+  --color-sarthi-azure: #134489;
+  --color-sarthi-gold: #FAC24A;
+  --color-sarthi-lemon: #EDEBB9;
+  --color-sarthi-parchment: #E6E3DB;
+  --color-sarthi-black: #010105;
+  --color-sarthi-azure-dark: #0d2f61;
+  --color-sarthi-azure-light: #1a5ab5;
+  --color-sarthi-gold-dark: #d4a028;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* ─── Sarthi Brand: Steel Azure / Sunflower Gold / Warm Parchment ─ */
+  --primary: oklch(0.33 0.13 250);        /* #134489 Steel Azure */
+  --primary-foreground: oklch(1 0 0);
+  --accent: oklch(0.82 0.14 85);          /* #FAC24A Sunflower Gold */
+  --accent-foreground: oklch(0.15 0 0);
+  --background: oklch(0.91 0.01 75);      /* #E6E3DB Warm Parchment */
+  --foreground: oklch(0.15 0.02 250);
+  --card: oklch(0.97 0.005 75);
+  --card-foreground: oklch(0.15 0.02 250);
+  --popover: oklch(0.98 0 0);
+  --popover-foreground: oklch(0.15 0.02 250);
+  --secondary: oklch(0.88 0.01 75);
+  --secondary-foreground: oklch(0.25 0.05 250);
+  --muted: oklch(0.88 0.01 75);
+  --muted-foreground: oklch(0.48 0.03 250);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.83 0.01 75);
+  --input: oklch(0.85 0.01 75);
+  --ring: oklch(0.33 0.13 250);
+  --chart-1: oklch(0.33 0.13 250);
+  --chart-2: oklch(0.82 0.14 85);
+  --chart-3: oklch(0.55 0.10 142);
+  --chart-4: oklch(0.65 0.15 55);
+  --chart-5: oklch(0.50 0.18 27);
+  --radius: 0.75rem;
+  --sidebar: oklch(0.97 0.005 75);
+  --sidebar-foreground: oklch(0.15 0.02 250);
+  --sidebar-primary: oklch(0.33 0.13 250);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.82 0.14 85);
+  --sidebar-accent-foreground: oklch(0.15 0 0);
+  --sidebar-border: oklch(0.83 0.01 75);
+  --sidebar-ring: oklch(0.33 0.13 250);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@keyframes admin-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.admin-rise {
+  animation: admin-rise 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .admin-rise { animation: none; }
+}
+
+@keyframes auth-rise {
+  from { opacity: 0; transform: translateY(12px) scale(0.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.auth-rise {
+  animation: auth-rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .auth-rise { animation: none; }
+}
+
+/* ─── Upload zone drag-over animation ─────────────────────────────────────── */
+@keyframes pulse-border {
+  0%, 100% { border-color: #134489; box-shadow: 0 0 0 0 rgba(19,68,137,0.3); }
+  50%       { border-color: #FAC24A; box-shadow: 0 0 0 6px rgba(250,194,74,0.15); }
+}
+.drop-active {
+  animation: pulse-border 1.4s ease-in-out infinite;
+}
+
+/* ─── Result card entrance ────────────────────────────────────────────────── */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.slide-up {
+  animation: slide-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* ─── Count number pop ────────────────────────────────────────────────────── */
+@keyframes count-pop {
+  0%   { transform: scale(0.6); opacity: 0; }
+  70%  { transform: scale(1.08); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.count-pop {
+  animation: count-pop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* ─── Shimmer for skeleton ─────────────────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #e6e3db 25%, #d0cdc4 50%, #e6e3db 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.6s infinite linear;
+}
+
+/* ─── Location Marker Pulse Animation ───────────────────────────────────── */
+@keyframes location-ping {
+  0% { transform: scale(0.95); opacity: 0.8; box-shadow: 0 0 0 0 rgba(19, 68, 137, 0.7); }
+  70% { transform: scale(1.15); opacity: 1; box-shadow: 0 0 0 12px rgba(19, 68, 137, 0); }
+  100% { transform: scale(0.95); opacity: 0.8; box-shadow: 0 0 0 0 rgba(19, 68, 137, 0); }
+}
+.animate-location-pulse {
+  animation: location-ping 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ─── AI Voice Wave Animation ────────────────────────────────────────────── */
+@keyframes wave-bar {
+  0%, 100% { height: 6px; }
+  50% { height: 24px; }
+}
+.animate-wave-bar-1 { animation: wave-bar 0.8s ease-in-out infinite; }
+.animate-wave-bar-2 { animation: wave-bar 0.8s ease-in-out infinite 0.15s; }
+.animate-wave-bar-3 { animation: wave-bar 0.8s ease-in-out infinite 0.3s; }
+.animate-wave-bar-4 { animation: wave-bar 0.8s ease-in-out infinite 0.45s; }
+
+/* ─── Hide Scrollbar for Horizontal Scrollable Quick Destinations ───────── */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

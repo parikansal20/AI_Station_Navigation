@@ -1,0 +1,57 @@
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables and secrets (Ignore actual secrets, keep example files)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+!.env.example
+!.env.sample
+!.env*.example
+
+# JavaScript / Node.js
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+.vercel/
+*.tsbuildinfo
+.pnp
+.pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs and runtime files
+*.log
+*.pid
+*.pid.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local tooling instructions
+AGENTS.md
+CLAUDE.md
