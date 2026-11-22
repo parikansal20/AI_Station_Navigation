@@ -1,0 +1,194 @@
+{
+  "notifications": [
+    {
+      "id": "1795201944196-q0i31y",
+      "title": "Facility status updated",
+      "description": "Charging Station marked as under maintenance.",
+      "category": "Facility",
+      "createdAt": "2026-11-20T19:12:24.196Z",
+      "read": false
+    },
+    {
+      "id": "1795201936915-0wniwp",
+      "title": "Facility status updated",
+      "description": "Washroom marked as working.",
+      "category": "Facility",
+      "createdAt": "2026-11-20T19:12:16.915Z",
+      "read": false
+    },
+    {
+      "id": "notif-001",
+      "title": "Facility Status Updated",
+      "description": "Lift near Gate 1 marked working after routine servicing.",
+      "category": "Facility",
+      "createdAt": "2026-07-30T08:15:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-002",
+      "title": "Coolie Shift Roster Updated",
+      "description": "5 coolie personnel deployed for Platform 1 Vande Bharat Express arrival.",
+      "category": "Operations",
+      "createdAt": "2026-07-30T07:45:00.000Z",
+      "read": false
+    },
+    {
+      "id": "notif-003",
+      "title": "Emergency Response Readiness Alert",
+      "description": "RPF Quick Reaction Team completed morning station corridor patrol.",
+      "category": "Security",
+      "createdAt": "2026-07-30T06:30:00.000Z",
+      "read": false
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-001",
+      "message": "Train 12004 Lucknow - New Delhi Vande Bharat Express arriving shortly on Platform 1.",
+      "publishAt": "2026-07-30T08:00:00.000Z",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "status": "Published",
+      "createdAt": "2026-07-30T07:50:00.000Z",
+      "notifiedAt": "2026-07-30T07:50:00.000Z"
+    },
+    {
+      "id": "ann-002",
+      "message": "Free battery golf cart service available at Gate 1 for senior citizens and divyangjan.",
+      "publishAt": "2026-07-30T06:00:00.000Z",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "status": "Published",
+      "createdAt": "2026-07-30T05:45:00.000Z",
+      "notifiedAt": "2026-07-30T05:45:00.000Z"
+    }
+  ],
+  "departmentAdmins": [
+    {
+      "id": "dept-adm-01",
+      "name": "Rajeswari Nair",
+      "role": "Coolie Operations Supervisor",
+      "department": "Porter Department",
+      "permissions": [
+        "view_analytics",
+        "manage_facilities",
+        "view_department_status"
+      ],
+      "approvalStatus": "Approved",
+      "createdAt": "2026-07-28T10:00:00.000Z",
+      "approvedAt": "2026-07-28T10:30:00.000Z",
+      "lastLogin": "2026-07-30T08:10:00.000Z"
+    },
+    {
+      "id": "dept-adm-02",
+      "name": "Alok Kumar Singh",
+      "role": "Golf Cart Fleet Manager",
+      "department": "Golf Cart Department",
+      "permissions": [
+        "view_analytics",
+        "manage_facilities",
+        "publish_announcements"
+      ],
+      "approvalStatus": "Approved",
+      "createdAt": "2026-07-28T11:15:00.000Z",
+      "approvedAt": "2026-07-28T11:45:00.000Z",
+      "lastLogin": "2026-07-30T07:55:00.000Z"
+    },
+    {
+      "id": "dept-adm-03",
+      "name": "Dr. Sunita Saxena",
+      "role": "Emergency Response Coordinator",
+      "department": "Emergency Department",
+      "permissions": [
+        "view_analytics",
+        "view_department_status"
+      ],
+      "approvalStatus": "Approved",
+      "createdAt": "2026-07-29T09:20:00.000Z",
+      "approvedAt": "2026-07-29T09:50:00.000Z",
+      "lastLogin": "2026-07-30T06:40:00.000Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "rep-001",
+      "name": "Daily Passenger Traffic & Platform Density",
+      "owner": "Station Operations Desk",
+      "updatedAt": "2026-07-30T08:00:00.000Z"
+    },
+    {
+      "id": "rep-002",
+      "name": "Accessibility Service SLA & Response Metrics",
+      "owner": "Passenger Care Committee",
+      "updatedAt": "2026-07-30T07:30:00.000Z"
+    },
+    {
+      "id": "rep-003",
+      "name": "Emergency SOS Response Duration Report",
+      "owner": "RPF & Medical Wing",
+      "updatedAt": "2026-07-29T18:00:00.000Z"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "fb-001",
+      "text": "Golf cart driver Rajesh was prompt and assisted my elderly parents right from Gate 1 to Platform 3.",
+      "sentiment": "Positive",
+      "createdAt": "2026-07-30T07:40:00.000Z"
+    },
+    {
+      "id": "fb-002",
+      "text": "Coolie booking was quick via mobile app. Fair rate and helpful behavior.",
+      "sentiment": "Positive",
+      "createdAt": "2026-07-30T06:50:00.000Z"
+    },
+    {
+      "id": "fb-003",
+      "text": "Escalator near Platform 2 needs faster maintenance during peak hours.",
+      "sentiment": "Neutral",
+      "createdAt": "2026-07-29T16:20:00.000Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep-01",
+      "name": "Porter Department",
+      "status": "Active",
+      "updatedAt": "2026-07-30T08:00:00.000Z"
+    },
+    {
+      "id": "dep-02",
+      "name": "Golf Cart Department",
+      "status": "Active",
+      "updatedAt": "2026-07-30T08:00:00.000Z"
+    },
+    {
+      "id": "dep-03",
+      "name": "Emergency Department",
+      "status": "Active",
+      "updatedAt": "2026-07-30T08:00:00.000Z"
+    },
+    {
+      "id": "dep-04",
+      "name": "Help Desk & Grievances",
+      "status": "Busy",
+      "updatedAt": "2026-07-30T08:00:00.000Z"
+    }
+  ],
+  "aiUsage": {
+    "total_queries": 1420,
+    "active_sessions": 310,
+    "voice_interactions": 540,
+    "route_navigations": 890
+  },
+  "aiPerformance": {
+    "response_accuracy": "98.4%",
+    "average_latency": "180ms",
+    "navigation_success_rate": "99.1%",
+    "user_satisfaction": "4.8 / 5.0"
+  }
+}
